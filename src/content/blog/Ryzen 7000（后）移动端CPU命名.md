@@ -2,6 +2,7 @@
 title: 'Ryzen 7000（后）移动端CPU命名'
 pubDate: 'Jun 10 2024'
 heroImage: '/blog-placeholder-1.jpg'
+description: '探索苏姿丰在AMD Ryzen 7000（Laptop）CPU发布会上公布的新命名方式'
 ---
 
 ## 大致含义

@@ -3,7 +3,7 @@ title: 'Ryzen 7000（后）移动端CPU命名'
 description: '了解AMD Ryzen 7000开始引入的新命名方式'
 pubDate: 'Jun 10 2024'
 heroImage: '/blog-placeholder-1.jpg'
-author: Huangyiming
+author: Huang Yiming
 ---
 
 ## 大致含义
@@ -73,6 +73,7 @@ e.g.
 |----|----|
 |HX|55W(+) 桌面端移植，有`PBO`|
 |HS|~35W(+) 部分型号有`PBO`（R9）|
+|H|~35W(+) 部分型号有`PBO`（R9） 中国特供，与HS相同|
 |U|15~28W 普通移动端|
 |C|15~28W Chromebook|
 |e|9W|

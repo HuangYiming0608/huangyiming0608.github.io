@@ -1,0 +1,24 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>欢迎来到我的博客！</h1>
+			<p>我叫黄奕铭，你可以叫我篆安，黄篆安，都可以</p>
+			<p>它是基于Astro的，你可以来看看我写的文章什么的，都是合理的</p>
+			<h2>Blog Bug报告:</h2>
+			<p>在<a href="https://github.com/huangyiming0608/blog">Github</a>上Fork，然后修改，最后不要忘记提交Pull Request！</p>
+		</main>
+		<Footer />
+	</body>
+</html>

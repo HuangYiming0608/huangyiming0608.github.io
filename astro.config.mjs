@@ -5,6 +5,6 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://ymhuang.eu.org',
-	integrations: [mdx(), sitemap()],
+	site: 'https://huangyiming0608.github.io/blog',
+        base: 'Blog',
 });

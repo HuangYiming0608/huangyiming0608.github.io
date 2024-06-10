@@ -1,0 +1,22 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>404 NOT FOUND!</h1>
+			<h2>Blog Bug报告:</h2>
+			<p>在<a href="https://github.com/huangyiming0608/blog">Github</a>上Fork，然后修改，最后不要忘记提交Pull Request！</p>
+		</main>
+		<Footer />
+	</body>
+</html>

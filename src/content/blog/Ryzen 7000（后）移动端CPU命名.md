@@ -4,6 +4,7 @@ description: '了解AMD Ryzen 7000开始引入的新命名方式'
 pubDate: 'Jun 10 2024'
 heroImage: '/blog-placeholder-1.jpg'
 author: Huang Yiming
+tags: ["hardware", "CPU"]
 ---
 
 ## 大致含义

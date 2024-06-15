@@ -23,7 +23,7 @@ export module 名称;
 ```
 
 ```cpp
-import 名称
+import 名称;
 ```
 
 ## C++23
@@ -34,7 +34,7 @@ C++23,有一个新的语法，如下：
 import std;
 ```
 
-它可以一键导入所有模块
+它可以一键导入所有`std`模块
 
 ## In OI
 

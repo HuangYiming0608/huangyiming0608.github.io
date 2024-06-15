@@ -1,9 +1,9 @@
 ---
 
-title: 'C++20 Moudle 模块'
+title: 'C++20 Module 模块'
 pubDate: 'Jun 15 2024'
 heroImage: '/blog-placeholder-2.jpg'
-description: 'C++20 Moudle 模块在OI中的应用'
+description: 'C++20 Module 模块在OI中的应用'
 
 ---
 

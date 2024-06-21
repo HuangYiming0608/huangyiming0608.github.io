@@ -1,9 +1,9 @@
 ---
 
-title: 'C++20 Moudle 模块'
+title: 'C++20 Module 模块'
 pubDate: 'Jun 15 2024'
 heroImage: '/blog-placeholder-2.jpg'
-description: 'C++20 Moudle 模块在OI中的应用'
+description: 'C++20 Module 模块在OI中的应用'
 
 ---
 
@@ -23,7 +23,7 @@ export module 名称;
 ```
 
 ```cpp
-import 名称
+import 名称;
 ```
 
 ## C++23
@@ -34,7 +34,7 @@ C++23,有一个新的语法，如下：
 import std;
 ```
 
-它可以一键导入所有模块
+它可以一键导入所有`std`模块
 
 ## In OI
 

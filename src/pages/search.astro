@@ -1,0 +1,22 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import FooterSearch from '../components/FooterSearch.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import Search from 'astro-pagefind/components/Search';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+            <h1>全站搜索我的Blog：</h1>
+            <Search id='search' className='pagefind-ui' uiOptions={{showImages: false}}/>
+		</main>
+		<FooterSearch />
+	</body>
+</html>

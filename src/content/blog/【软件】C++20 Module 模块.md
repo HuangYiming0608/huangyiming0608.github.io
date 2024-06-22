@@ -1,6 +1,6 @@
 ---
 
-title: '【C++，软件】C++20 Module 模块'
+title: '【软件】C++20 Module 模块'
 pubDate: 'Jun 15 2024'
 heroImage: '/blog-placeholder-2.jpg'
 description: 'C++20 Module 模块在OI中的应用'

@@ -3,7 +3,7 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import FooterSearch from '../components/FooterSearch.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
-import Search from 'astro-pagefind/components/Search';
+import SearchBar from 'astro-pagefind/components/Search';
 ---
 
 <!doctype html>
@@ -15,7 +15,7 @@ import Search from 'astro-pagefind/components/Search';
 		<Header />
 		<main>
             <h1>全站搜索我的Blog：</h1>
-            <Search id='search' className='pagefind-ui' uiOptions={{showImages: false}}/>
+            <SearchBar id='search' className='pagefind-ui' uiOptions={{showImages: false}}/>
 		</main>
 		<FooterSearch />
 	</body>

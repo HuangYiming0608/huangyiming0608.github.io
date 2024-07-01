@@ -6,7 +6,7 @@ import rehypeKatex from 'rehype-katex';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://huangyiming0608.github.io',
+	site: 'https://hym-blog.pages.dev',
 	integrations: [pagefind(),mdx()],
 	markdown: {
 		remarkPlugins: [remarkMath],

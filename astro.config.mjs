@@ -3,9 +3,6 @@ import mdx from '@astrojs/mdx';
 import pagefind from 'astro-pagefind';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
-
-import cloudflare from "@astrojs/cloudflare";
-
 // https://astro.build/config
 export default defineConfig({
   site: 'https://hym-blog.pages.dev',
@@ -14,6 +11,4 @@ export default defineConfig({
     remarkPlugins: [remarkMath],
     rehypePlugins: [rehypeKatex]
   },
-  output: "server",
-  adapter: cloudflare()
 });

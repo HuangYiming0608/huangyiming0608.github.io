@@ -81,6 +81,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 					<slot />
 				</div>
 			</article>
+			<div class="chat">
 			<script src="https://giscus.app/client.js"
         data-repo="HuangYiming0608/huangyiming0608.github.io"
         data-repo-id="R_kgDOMG_R8w"
@@ -97,6 +98,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
         crossorigin="anonymous"
         async>
 </script>
+</div>
 		</main>
 		<FooterPost />
 	</body>
@@ -108,5 +110,9 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 		background: linear-gradient(var(--gray-gradient)) no-repeat;
 		color: rgb(var(--gray));
 		text-align: center;
+	}
+	.chat {
+		width: 75%;
+		align-items: center; 
 	}
 </style>

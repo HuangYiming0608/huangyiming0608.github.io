@@ -5,8 +5,8 @@
  */
 
 :root {
-	--accent: #0015ff;
-	--accent-dark: #000d8a;
+	--accent: #0033ff;
+	--accent-dark: #000099;
 	--black: 15, 18, 25;
 	--gray: 96, 115, 159;
 	--gray-light: 229, 233, 240;
@@ -30,7 +30,7 @@
 	font-display: swap;
 }
 body {
-	font-family: 'Atkinson', sans-serif;
+	font-family: 'Atkinson';
 	margin: 0;
 	padding: 0;
 	text-align: left;
@@ -47,6 +47,7 @@ main {
 	max-width: calc(100% - 2em);
 	margin: auto;
 	padding: 3em 1em;
+	font-family: 'Atkinson';
 }
 h1,
 h2,
@@ -57,85 +58,108 @@ h6 {
 	margin: 0 0 0.5rem 0;
 	color: rgb(var(--black));
 	line-height: 1.2;
+	font-family: 'Atkinson';
 }
 h1 {
 	font-size: 3em;
+	font-family: 'Atkinson';
 }
 h2 {
 	font-size: 2.5em;
+	font-family: 'Atkinson';
 }
 h3 {
 	font-size: 2em;
+	font-family: 'Atkinson';
 }
 h4 {
 	font-size: 1.5em;
+	font-family: 'Atkinson';
 }
 h5 {
 	font-size: 1em;
+	font-family: 'Atkinson';
 }
 strong,
 b {
 	font-weight: 700;
+	font-family: 'Atkinson';
 }
 a {
 	color: var(--accent);
+	font-family: 'Atkinson';
 }
 a:hover {
 	color: var(--accent);
+	font-family: 'Atkinson';
 }
 p {
 	margin-bottom: 1em;
+	font-family: 'Atkinson';
 }
 .prose p {
 	margin-bottom: 2em;
+	font-family: 'Atkinson';
 }
 textarea {
 	width: 100%;
 	font-size: 16px;
+	font-family: 'Atkinson';
 }
 input {
 	font-size: 16px;
+	font-family: 'Atkinson';
 }
 table {
 	width: 100%;
+	font-family: 'Atkinson';
 }
 img {
 	max-width: 100%;
 	height: auto;
 	border-radius: 8px;
+	font-family: 'Atkinson';
 }
 code {
 	padding: 2px 5px;
 	background-color: rgb(var(--gray-light));
 	border-radius: 2px;
+	font-family: 'Atkinson';
 }
 pre {
 	padding: 1.5em;
 	border-radius: 8px;
+	font-family: 'Atkinson';
 }
 pre > code {
 	all: unset;
+	font-family: 'Atkinson';
 }
 blockquote {
 	border-left: 4px solid var(--accent);
 	padding: 0 0 0 20px;
 	margin: 0px;
 	font-size: 1.333em;
+	font-family: 'Atkinson';
 }
 hr {
 	border: none;
 	border-top: 1px solid rgb(var(--gray-light));
+	font-family: 'Atkinson';
 }
 @media (max-width: 720px) {
 	body {
 		font-size: 18px;
+		font-family: 'Atkinson';
 	}
 	main {
 		padding: 1em;
+		font-family: 'Atkinson';
 	}
 }
 
 .sr-only {
+	font-family: 'Atkinson';
 	border: 0;
 	padding: 0;
 	margin: 0;

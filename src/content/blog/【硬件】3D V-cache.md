@@ -1,10 +1,7 @@
 ---
 title: '【硬件】3D V-cache'
-
 pubDate: 'Jul 14 2024'
-
 heroImage: '/blog-placeholder-4.jpg'
-
 description: '3D V-cache'
 ---
 

@@ -31,9 +31,9 @@ description: '3D V-cache'
 
 Zen 3 开始的中高端处理器都有 3D V-cache 的版本，以 `X3D` 结尾，***他们不是标配！***
 
-但是，两个 CCD 的型号只有一个 CCD 配备 3D V-cache，如下图：
+但是，两个 CCD 的型号只有一个 CCD 配备 3D V-cache，如下图右侧 CCD 没有配备 3D v-cache
 
-![]()
+![](/7950x3d.jpg)
 
 这是因为 3D V-cache 会影响热量散发，所以，为了频率，不能全部配 3D V-cache。
 
